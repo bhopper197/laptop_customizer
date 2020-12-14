@@ -1,20 +1,22 @@
 * {
   box-sizing: border-box;
+  background-color: black;
 }
 
 html {
   font: calc(100% * 0.625) / 1.15 HelveticaNeue, Helvetica, sans-serif;
+  color: white;
 }
 
 body {
   font-size: 1.8rem;
   line-height: 1.875;
-  color: #252525;
+  color: #cecece;
   margin: 0;
 }
 
 header {
-  background-color: #252525d2;
+  background-color: rgb(20, 19, 19);
   color: #fff;
   padding: 2rem;
 }
@@ -24,6 +26,7 @@ main {
   width: 95%;
   max-width: 120rem;
   margin: 0 auto;
+  background-color: rgb(20, 19, 19);
 }
 
 legend > h3 {
@@ -83,11 +86,12 @@ while keeping them available to the keyboard */
 }
 
 .feature__label:hover {
-  border-color: #888;
+  background-color: #019999;
+  border: none;
 }
 
 .feature__option:checked + .feature__label {
-  border: 0.2rem solid #0070c9;
+  border: 0.2rem solid #019999;
 }
 
 .feature__option:focus + .feature__label {
